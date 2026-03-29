@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.top-bar {
+    background: #1f1f2e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 100px;   
+    
+}
+
+.icon {
+    font-size: 18px;
+}
+.navbar {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+
+
+.product {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.product-img img {
+    width: 350px;
+}
+
+.product-info {
+    max-width: 500px;
+}
+
+.product-info h1 {
+    font-size: 28px;
+}
+
+.rating {
+    color: #f4b400;
+}
+
+.product-info ul {
+    padding-left: 20px;
+}
+
+.price {
+    margin: 15px 0;
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+
+.new {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    height: 80vh;  
+    width: 100%;
+    background-image: url('belt.jpeg');  
+    background-size: cover;       
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.hero {
+    display: flex;
+    align-items: center;   
+    padding-left: 60px;   
+}
+
+
+.hero-card {
+    background: white;
+    padding: 25px 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* Text */
+.hero-card h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.hero-card p {
+    margin: 10px 0;
+    color: #38345c;
+    font-size: 14px;
+}
+
+/* Button */
+.hero-card button {
+    padding: 10px 15px;
+    background: rgb(46, 197, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.video-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.video-section video {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px;
+}
+
+
+.info-img img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.info-text {
+    max-width: 500px;
+}
+
+.info-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.info-text p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.info-text button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: rgb(46, 197, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.bestseller {
+    text-align: left;
+    padding: 60px;
+}
+
+.bestseller h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.bestseller p {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.product-card {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+
+.product-card h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.product-card p {
+    font-weight: bold;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.product-card {
+    width: 220px;
+    padding: 15px;
+    border: 1px solid #ddd;        
+    border-radius: 10px;          
+    background: #fff;             
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);  
+    text-align: center;
+    transition: 0.3s;
+}
+
+.info-banner {
+    height: 70vh;   
+    background: url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZG9nfGVufDB8fDB8fHww') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-card {
+    background: white;
+    padding: 30px 40px;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+.banner-card h2 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.banner-card p {
+    margin: 15px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.banner-card button {
+    margin-top: 10px;
+    padding: 12px 25px;
+    background: rgb(46, 197, 33);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner-card button:hover {
+    background: rgb(46, 197, 33);
+}
+.testimonials {
+    padding: 60px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+}
+
+
+.testimonial-grid {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.testimonial-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+    text-align: left;
+}
+
+
+.testimonial-card h3 {
+    margin-bottom: 10px;
+}
+
+.testimonial-card p {
+    color: #555;
+    font-style: italic;
+}
+
+.testimonial-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #fffefe;
+    color: hsl(0, 33%, 1%);
+    padding: 50px 60px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.footer-col {
+    max-width: 300px;
+}
+
+.footer-col h3 {
+    margin-bottom: 15px;
+}
+
+
+.footer-col p {
+    margin: 5px 0;
+    color: #050505;
+    cursor: pointer;
+}
+
+.footer-col p:hover {
+    color: #0c0909;
+}
+@media (max-width: 768px) {
+
+  body {
+    overflow: auto;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .left {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .left img {
+    width: 100%;
+    height: auto;
+  }
+
+  .right {
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    overflow: visible;
+  }
+
+}
